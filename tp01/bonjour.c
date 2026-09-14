@@ -1,8 +1,9 @@
-//Exercice 1.1
+// Exercice 1.1
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
     printf("Bonjour tout le monde!");
     return 0;
 }
