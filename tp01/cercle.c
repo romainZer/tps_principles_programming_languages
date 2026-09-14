@@ -4,12 +4,18 @@
 
 float PI = 3.14159;
 
-float calculateArea(float r)
+/**
+ * Calculates a radius (of a circle)
+ */
+float calculateRadius(float r)
 {
-    float rayon = PI * r * r;
-    return rayon;
+    float radius = PI * r * r;
+    return radius;
 }
 
+/**
+ * Calculates a perimeter (of a circle)
+ */
 float calculatePerimeter(float r)
 {
     float perimeter = PI * 2 * r;
@@ -18,13 +24,13 @@ float calculatePerimeter(float r)
 
 int main()
 {
-    float rayon;
+    float radius;
     printf("Veuillez entrer le rayon du cercle : ");
-    scanf("%f", &rayon);
+    scanf("%f", &radius);
     printf("\n");
 
-    float area = calculateArea(rayon);
-    float perimeter = calculatePerimeter(rayon);
+    float area = calculateRadius(radius);
+    float perimeter = calculatePerimeter(radius);
 
     printf("Area : %f\n", area);
     printf("Perimeter : %f\n", perimeter);
