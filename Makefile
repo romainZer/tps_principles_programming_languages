@@ -17,3 +17,8 @@ tp01-variables:
 	mkdir -p ./tp01/out
 	gcc -Wall -Wextra -o ./tp01/out/variables.out ./tp01/variables.c
 	./tp01/out/variables.out
+
+tp01-operateurs: 
+	mkdir -p ./tp01/out
+	gcc -Wall -Wextra -o ./tp01/out/operateurs.out ./tp01/operateurs.c
+	./tp01/out/operateurs.out

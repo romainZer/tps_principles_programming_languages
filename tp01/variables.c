@@ -1,3 +1,4 @@
+// Exercice 1.4
 #include <stdio.h>
 #include <limits.h>
 #include <float.h>
