@@ -22,3 +22,8 @@ tp01-operateurs:
 	mkdir -p ./tp01/out
 	gcc -Wall -Wextra -o ./tp01/out/operateurs.out ./tp01/operateurs.c
 	./tp01/out/operateurs.out
+
+tp01-boucles: 
+	mkdir -p ./tp01/out
+	gcc -Wall -Wextra -o ./tp01/out/boucles.out ./tp01/boucles.c
+	./tp01/out/boucles.out
