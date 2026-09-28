@@ -32,3 +32,8 @@ tp01-controle:
 	mkdir -p ./tp01/out
 	gcc -Wall -Wextra -o ./tp01/out/controle.out ./tp01/controle.c
 	./tp01/out/controle.out
+
+tp01-calculs: 
+	mkdir -p ./tp01/out
+	gcc -Wall -Wextra -o ./tp01/out/calculs.out ./tp01/calculs.c
+	./tp01/out/calculs.out
