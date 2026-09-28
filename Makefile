@@ -27,3 +27,8 @@ tp01-boucles:
 	mkdir -p ./tp01/out
 	gcc -Wall -Wextra -o ./tp01/out/boucles.out ./tp01/boucles.c
 	./tp01/out/boucles.out
+
+tp01-controle: 
+	mkdir -p ./tp01/out
+	gcc -Wall -Wextra -o ./tp01/out/controle.out ./tp01/controle.c
+	./tp01/out/controle.out
