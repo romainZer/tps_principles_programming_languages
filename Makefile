@@ -42,3 +42,8 @@ tp01-binaire:
 	mkdir -p ./tp01/out
 	gcc -Wall -Wextra -o ./tp01/out/binaire.out ./tp01/binaire.c
 	./tp01/out/binaire.out
+
+tp03-repl:
+	mkdir -p ./tp03/out
+	gcc -Wall -Wextra -o ./tp03/out/repl.out ./tp03/repl.c
+	./tp03/out/repl.out
